@@ -72,15 +72,19 @@ margin-top:50vh;
 margin-bottom:50vh;
 background-color:#fff
 }
-.page-content__main{width:100%}
-.page-content__gallery{width:100%}
+.page-content__main{
+width:100%
+}
+.page-content__gallery{
+width:100%
+}
 .page-footer{
 position:fixed;
 bottom:0;
 right:0;
 left:0;
 z-index:0;
-height:50vh;
+height:40vh;
 background-color:#ccc;
 background-image:url(page-footer_bg.jpg);
 background-repeat:no-repeat;
@@ -88,10 +92,20 @@ background-size:cover;
 background-position:center center}
 .page-footer__inner{
 display:-webkit-box;
-display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;
--webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;
--webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;
-width:100%;max-width:1200px;height:100%;margin:0 auto}
+display:-webkit-flex;
+display:-ms-flexbox;display:flex;
+-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;
+-webkit-box-pack:center;
+-webkit-justify-content:center;
+-ms-flex-pack:center;justify-content:center;
+-webkit-box-align:center;
+-webkit-align-items:center;
+-ms-flex-align:center;
+align-items:center;
+width:100%;
+max-width:1200px;
+height:100%;
+margin:0 auto}
 .page-footer__group{
 padding:0 20px
 }
